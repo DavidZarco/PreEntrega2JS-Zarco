@@ -76,7 +76,7 @@ function calcularRecargo(total){
             break;
         }
         alert("Su total con intereses es:" + tot );   
-        condicion = parseInt(prompt("Escriba cualquier tecla si quiere recalcular los intereses o 0 si desea salir."));
+        condicion = parseInt(prompt("Escriba cualquier tecla si desea recalcular el monto cambiando las cuotas elegidas o 0 si desea salir."));
         if (condicion != 0) {
          alert("Su monto es de " +tot+  " pesos, recuerde que en 3 cuotas tiene un 15% de interes, en 6 cuotas un 19%, en 12 cuotas un 22% y en 24 cuotas un 29%.");
         cuotas = parseInt(prompt("Ingrese la cantidad de cuotas en las que quiera pagar la compra: 3,6,12,24"));    
