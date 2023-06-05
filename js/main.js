@@ -40,14 +40,14 @@ function ofrecerProductos(){
          let pago = prompt("Como desea pagar su compra: \n 1:Efectivo. \n 2:Transferencia. \n 3:Tarjeta(tiene recargo). ");
          switch (pago) {
              case "3":
-                 calcularRecargo(total);
-                 break;
-                 case "2":
-                     alert("TOTAL CON TRANSFERENCIA:" +total);
-                     break;
-                     case "1":
-                         alert("TOTAL EN EFECTIVO:" +total);   
-                        }
+                calcularRecargo(total);
+                break;
+                case "2":
+                alert("TOTAL CON TRANSFERENCIA: " +total);
+                break;
+                 case "1":
+                alert("TOTAL EN EFECTIVO: " +total);   
+        }
     }
 }
 
